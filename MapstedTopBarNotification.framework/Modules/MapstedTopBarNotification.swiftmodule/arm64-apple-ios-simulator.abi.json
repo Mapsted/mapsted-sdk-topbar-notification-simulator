@@ -1529,6 +1529,120 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "excludeItem",
+            "printedName": "excludeItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvp",
+            "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvp",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvg",
+                "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvg",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvs",
+                "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvs",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvM",
+                "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvM",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "getNotificationUIViewController",
             "printedName": "getNotificationUIViewController()",
@@ -1551,6 +1665,43 @@
             "declKind": "Func",
             "usr": "s:25MapstedTopBarNotification0D9UIManagerC03getD16UIViewControllerSo0gH0CSgyF",
             "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC03getD16UIViewControllerSo0gH0CSgyF",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "excludeItemFromList",
+            "printedName": "excludeItemFromList(list:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25MapstedTopBarNotification0D9UIManagerC19excludeItemFromList4listySayAA08AccuracyG4TypeOG_tF",
+            "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC19excludeItemFromList4listySayAA08AccuracyG4TypeOG_tF",
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
@@ -1726,6 +1877,454 @@
         "mangledName": "$s25MapstedTopBarNotification0A12CoreInternalC",
         "moduleName": "MapstedTopBarNotification",
         "isOpen": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccuracyItemType",
+        "printedName": "AccuracyItemType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "compass",
+            "printedName": "compass",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedTopBarNotification.AccuracyItemType.Type) -> MapstedTopBarNotification.AccuracyItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO7compassyA2CmF",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO7compassyA2CmF",
+            "moduleName": "MapstedTopBarNotification"
+          },
+          {
+            "kind": "Var",
+            "name": "wifi",
+            "printedName": "wifi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedTopBarNotification.AccuracyItemType.Type) -> MapstedTopBarNotification.AccuracyItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO4wifiyA2CmF",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO4wifiyA2CmF",
+            "moduleName": "MapstedTopBarNotification"
+          },
+          {
+            "kind": "Var",
+            "name": "bluetooth",
+            "printedName": "bluetooth",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedTopBarNotification.AccuracyItemType.Type) -> MapstedTopBarNotification.AccuracyItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO9bluetoothyA2CmF",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO9bluetoothyA2CmF",
+            "moduleName": "MapstedTopBarNotification"
+          },
+          {
+            "kind": "Var",
+            "name": "enableLocation",
+            "printedName": "enableLocation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedTopBarNotification.AccuracyItemType.Type) -> MapstedTopBarNotification.AccuracyItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO14enableLocationyA2CmF",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO14enableLocationyA2CmF",
+            "moduleName": "MapstedTopBarNotification"
+          },
+          {
+            "kind": "Var",
+            "name": "nearyByLocation",
+            "printedName": "nearyByLocation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedTopBarNotification.AccuracyItemType.Type) -> MapstedTopBarNotification.AccuracyItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO15nearyByLocationyA2CmF",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO15nearyByLocationyA2CmF",
+            "moduleName": "MapstedTopBarNotification"
+          },
+          {
+            "kind": "Var",
+            "name": "incorrectFloor",
+            "printedName": "incorrectFloor",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedTopBarNotification.AccuracyItemType.Type) -> MapstedTopBarNotification.AccuracyItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO14incorrectFlooryA2CmF",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO14incorrectFlooryA2CmF",
+            "moduleName": "MapstedTopBarNotification"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MapstedTopBarNotification.AccuracyItemType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "MapstedTopBarNotification",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO8rawValueSivp",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO8rawValueSivp",
+            "moduleName": "MapstedTopBarNotification",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO8rawValueSivg",
+                "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO8rawValueSivg",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO8allCasesSayACGvpZ",
+            "moduleName": "MapstedTopBarNotification",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO8allCasesSayACGvgZ",
+                "moduleName": "MapstedTopBarNotification",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO",
+        "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO",
+        "moduleName": "MapstedTopBarNotification",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -2640,6 +3239,41 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "excludeItem",
+            "printedName": "excludeItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC11excludeItem33_9651FC3F3F2A9D86AA9C54B467628543LLSayAA08AccuracyG4TypeOGvp",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC11excludeItem33_9651FC3F3F2A9D86AA9C54B467628543LLSayAA08AccuracyG4TypeOGvp",
+            "moduleName": "MapstedTopBarNotification",
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 13,
+            "hasStorage": true
           },
           {
             "kind": "Function",
@@ -7238,462 +7872,609 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Delegate\/MapstedNotificationListenerManager.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Delegate\/MapstedNotificationListenerManager.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 35,
       "value": "\"com.mapsted.notification.listener\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Delegate\/MapstedNotificationListenerManager.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Delegate\/MapstedNotificationListenerManager.swift",
       "kind": "Array",
       "offset": 727,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 552,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 598,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 648,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
       "kind": "Array",
-      "offset": 777,
+      "offset": 493,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
+      "kind": "Array",
+      "offset": 1202,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 615,
+      "length": 15,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 640,
+      "length": 14,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 615,
+      "length": 15,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 640,
+      "length": 14,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 615,
+      "length": 15,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 640,
+      "length": 14,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 745,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 841,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "Array",
+      "offset": 970,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Dictionary",
-      "offset": 819,
+      "offset": 1012,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 858,
+      "offset": 1051,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 906,
+      "offset": 1099,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 953,
+      "offset": 1146,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 1046,
+      "offset": 1239,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Constant\/Constant.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "Array",
+      "offset": 1438,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Constant\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 39,
       "value": "\"com.mapsted.MapstedTopBarNotification\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 21,
       "value": "\"NetworkMonitorQueue\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 548,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 597,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 33,
       "value": "\"Please check your WiFi settings\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 33,
       "value": "\"Please check your WiFi settings\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 442,
       "length": 39,
       "value": "\"Please check your internet connection\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 492,
       "length": 39,
       "value": "\"Please check your internet connection\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 625,
       "length": 50,
       "value": "\"Turn on Bluetooth to optimize location accuracy.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 686,
       "length": 50,
       "value": "\"Turn on Bluetooth to optimize location accuracy.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 833,
       "length": 31,
       "value": "\"Active alerts on the property\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 875,
       "length": 31,
       "value": "\"Active alerts on the property\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 990,
       "length": 13,
       "value": "\"Downloading\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1014,
       "length": 13,
       "value": "\"Downloading\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 25,
       "value": "\"LocationInProgress.Text\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1154,
       "length": 29,
       "value": "\"Location sharing is active.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1275,
       "length": 24,
       "value": "\"BlueDot.UnreliableData\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1310,
       "length": 90,
       "value": "\"Blue-dot positioning is temporarily unavailable due to unreliable data from your device.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1497,
       "length": 29,
       "value": "\"BlueDot.MissingSensorsError\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1537,
       "length": 67,
       "value": "\"Blue-dot positioning is disabled due to missing inertial sensorr.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1700,
       "length": 33,
       "value": "\"BlueDot.MissingBarometerWarning\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1744,
       "length": 66,
       "value": "\"Blue-dot positioning may be unreliable due to missing barometer.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1902,
       "length": 22,
       "value": "\"BlueDot.UnknownError\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 1935,
       "length": 62,
       "value": "\"Blue-dot positioning is unavailable due to an unknown error.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2084,
       "length": 16,
       "value": "\"LicenceInvalid\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2111,
       "length": 45,
       "value": "\"Licence is invalid. Please contact support.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2243,
       "length": 16,
       "value": "\"LicenceExpired\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2270,
       "length": 46,
       "value": "\"Licence has expired. Please contact support.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2408,
       "length": 69,
       "value": "\"Unable to load your property list. Check your connection and retry.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2488,
       "length": 69,
       "value": "\"Unable to load your property list. Check your connection and retry.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2637,
       "length": 55,
       "value": "\"Wi-Fi is off. Enable it to enhance location accuracy.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2703,
       "length": 55,
       "value": "\"Wi-Fi is off. Enable it to enhance location accuracy.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2847,
       "length": 31,
       "value": "\"We are fetching your location\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 2889,
       "length": 31,
       "value": "\"We are fetching your location\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3015,
       "length": 87,
       "value": "\"Blue-dot positioning accuracy is reduced due to missing permissions. Tap for details.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Documents\/NewAppTemplate\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Repo2\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/Translations.swift",
       "kind": "StringLiteral",
       "offset": 3113,
       "length": 87,
       "value": "\"Blue-dot positioning accuracy is reduced due to missing permissions. Tap for details.\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 742,
       "length": 17,
       "value": "\"Invalid_licence\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 903,
       "length": 19,
       "value": "\"activityIndicator\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1051,
       "length": 12,
       "value": "\"alert_icon\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1183,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1322,
       "length": 13,
       "value": "\"detailArrow\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1467,
       "length": 13,
       "value": "\"downloading\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1625,
       "length": 20,
       "value": "\"featching_location\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1784,
       "length": 17,
       "value": "\"licence_expired\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1939,
       "length": 17,
       "value": "\"live_share_icon\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2104,
       "length": 22,
       "value": "\"missing_sensor_error\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2255,
       "length": 12,
       "value": "\"no_bluedot\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2400,
       "length": 14,
       "value": "\"no_bluetooth\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2545,
       "length": 13,
       "value": "\"no_internet\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2695,
       "length": 16,
       "value": "\"sensor_warning\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2838,
       "length": 11,
       "value": "\"stop_icon\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2978,
       "length": 12,
       "value": "\"wifi_error\""
     },
     {
-      "filePath": "\/Users\/vimal\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-apouibaeplzxixfgkqehwutobszq\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/MapstedTopBarNotification-aqyrgbseftcygjacnagswqurgjfu\/Build\/Intermediates.noindex\/MapstedTopBarNotification.build\/Debug-iphonesimulator\/MapstedTopBarNotification.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3117,
       "length": 11,

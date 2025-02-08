@@ -38,7 +38,25 @@ import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class NotificationUIManager {
   public static let shared: MapstedTopBarNotification.NotificationUIManager
   public func getNotificationUIViewController() -> UIKit.UIViewController?
+  public func excludeItemFromList(list: [MapstedTopBarNotification.AccuracyItemType] = [])
   @objc deinit
+}
+public enum AccuracyItemType : Swift.Int, Swift.CaseIterable, Swift.Codable {
+  case compass
+  case wifi
+  case bluetooth
+  case enableLocation
+  case nearyByLocation
+  case incorrectFloor
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [MapstedTopBarNotification.AccuracyItemType]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [MapstedTopBarNotification.AccuracyItemType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 @objc public protocol MapstedNotificationListener {
   @objc func onTopBarNotificationEnabled(enabled: Swift.Bool)
@@ -47,3 +65,6 @@ import _SwiftConcurrencyShims
 extension MapstedTopBarNotification.HeightMode : Swift.Equatable {}
 extension MapstedTopBarNotification.HeightMode : Swift.Hashable {}
 extension MapstedTopBarNotification.HeightMode : Swift.RawRepresentable {}
+extension MapstedTopBarNotification.AccuracyItemType : Swift.Equatable {}
+extension MapstedTopBarNotification.AccuracyItemType : Swift.Hashable {}
+extension MapstedTopBarNotification.AccuracyItemType : Swift.RawRepresentable {}
