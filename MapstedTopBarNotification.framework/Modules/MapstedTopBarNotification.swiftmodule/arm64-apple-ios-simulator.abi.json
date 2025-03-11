@@ -1529,159 +1529,30 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "excludeItem",
-            "printedName": "excludeItem",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AccuracyItemType",
-                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
-                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AccuracyItemType",
-                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
-                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvg",
-                "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvg",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AccuracyItemType",
-                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
-                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvs",
-                "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvs",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvM",
-                "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC11excludeItemSayAA08AccuracyG4TypeOGvM",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "getNotificationUIViewController",
-            "printedName": "getNotificationUIViewController()",
+            "printedName": "getNotificationUIViewController(propertyId:excludeItems:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
+                "printedName": "MapstedTopBarNotification.NotificationUIVC?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
+                    "name": "NotificationUIVC",
+                    "printedName": "MapstedTopBarNotification.NotificationUIVC",
+                    "usr": "c:@M@MapstedTopBarNotification@objc(cs)NotificationUIVC"
                   }
                 ],
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:25MapstedTopBarNotification0D9UIManagerC03getD16UIViewControllerSo0gH0CSgyF",
-            "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC03getD16UIViewControllerSo0gH0CSgyF",
-            "moduleName": "MapstedTopBarNotification",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "excludeItemFromList",
-            "printedName": "excludeItemFromList(list:)",
-            "children": [
+              },
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
@@ -1700,8 +1571,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:25MapstedTopBarNotification0D9UIManagerC19excludeItemFromList4listySayAA08AccuracyG4TypeOG_tF",
-            "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC19excludeItemFromList4listySayAA08AccuracyG4TypeOG_tF",
+            "usr": "s:25MapstedTopBarNotification0D9UIManagerC03getD16UIViewController10propertyId12excludeItemsAA0D4UIVCCSgSi_SayAA16AccuracyItemTypeOGtF",
+            "mangledName": "$s25MapstedTopBarNotification0D9UIManagerC03getD16UIViewController10propertyId12excludeItemsAA0D4UIVCCSgSi_SayAA16AccuracyItemTypeOGtF",
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
@@ -2106,6 +1977,80 @@
             "moduleName": "MapstedTopBarNotification"
           },
           {
+            "kind": "Var",
+            "name": "unreliableData",
+            "printedName": "unreliableData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedTopBarNotification.AccuracyItemType.Type) -> MapstedTopBarNotification.AccuracyItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO14unreliableDatayA2CmF",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO14unreliableDatayA2CmF",
+            "moduleName": "MapstedTopBarNotification"
+          },
+          {
+            "kind": "Var",
+            "name": "missingPermissionsMotionAndFitness",
+            "printedName": "missingPermissionsMotionAndFitness",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MapstedTopBarNotification.AccuracyItemType.Type) -> MapstedTopBarNotification.AccuracyItemType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO34missingPermissionsMotionAndFitnessyA2CmF",
+            "mangledName": "$s25MapstedTopBarNotification16AccuracyItemTypeO34missingPermissionsMotionAndFitnessyA2CmF",
+            "moduleName": "MapstedTopBarNotification"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -2333,799 +2278,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "isBluetoothOn",
-            "printedName": "isBluetoothOn",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC13isBluetoothOn33_9651FC3F3F2A9D86AA9C54B467628543LLSbvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC13isBluetoothOn33_9651FC3F3F2A9D86AA9C54B467628543LLSbvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 0,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "isWiFiConnected",
-            "printedName": "isWiFiConnected",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC15isWiFiConnected33_9651FC3F3F2A9D86AA9C54B467628543LLSbvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC15isWiFiConnected33_9651FC3F3F2A9D86AA9C54B467628543LLSbvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 1,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "isInternetAvailable",
-            "printedName": "isInternetAvailable",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC19isInternetAvailable33_9651FC3F3F2A9D86AA9C54B467628543LLSbvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC19isInternetAvailable33_9651FC3F3F2A9D86AA9C54B467628543LLSbvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 2,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "updatedAlertMessages",
-            "printedName": "updatedAlertMessages",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC20updatedAlertMessagesSaySSGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC20updatedAlertMessagesSaySSGvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 3,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC20updatedAlertMessagesSaySSGvg",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC20updatedAlertMessagesSaySSGvg",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC20updatedAlertMessagesSaySSGvs",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC20updatedAlertMessagesSaySSGvs",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC20updatedAlertMessagesSaySSGvM",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC20updatedAlertMessagesSaySSGvM",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "updatedAlertIcons",
-            "printedName": "updatedAlertIcons",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC17updatedAlertIconsSDyS2SGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17updatedAlertIconsSDyS2SGvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 4,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC17updatedAlertIconsSDyS2SGvg",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17updatedAlertIconsSDyS2SGvg",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC17updatedAlertIconsSDyS2SGvs",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17updatedAlertIconsSDyS2SGvs",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC17updatedAlertIconsSDyS2SGvM",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17updatedAlertIconsSDyS2SGvM",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "alertMessages",
-            "printedName": "alertMessages",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC13alertMessagesSaySSGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC13alertMessagesSaySSGvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 5,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC13alertMessagesSaySSGvg",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC13alertMessagesSaySSGvg",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC13alertMessagesSaySSGvs",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC13alertMessagesSaySSGvs",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC13alertMessagesSaySSGvM",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC13alertMessagesSaySSGvM",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "alertIcons",
-            "printedName": "alertIcons",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC10alertIconsSDyS2SGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC10alertIconsSDyS2SGvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 6,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC10alertIconsSDyS2SGvg",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC10alertIconsSDyS2SGvg",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC10alertIconsSDyS2SGvs",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC10alertIconsSDyS2SGvs",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC10alertIconsSDyS2SGvM",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC10alertIconsSDyS2SGvM",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isPositionVisible",
-            "printedName": "isPositionVisible",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC17isPositionVisibleSbvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17isPositionVisibleSbvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 7,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC17isPositionVisibleSbvg",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17isPositionVisibleSbvg",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC17isPositionVisibleSbvs",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17isPositionVisibleSbvs",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification0D4UIVCC17isPositionVisibleSbvM",
-                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17isPositionVisibleSbvM",
-                "moduleName": "MapstedTopBarNotification",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "isLiveShareActive",
-            "printedName": "isLiveShareActive",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC17isLiveShareActive33_9651FC3F3F2A9D86AA9C54B467628543LLSbvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC17isLiveShareActive33_9651FC3F3F2A9D86AA9C54B467628543LLSbvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 8,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "propertyIdArray",
-            "printedName": "propertyIdArray",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Int]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC15propertyIdArray33_9651FC3F3F2A9D86AA9C54B467628543LLSaySiGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC15propertyIdArray33_9651FC3F3F2A9D86AA9C54B467628543LLSaySiGvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 9,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "propertyList",
-            "printedName": "propertyList",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MapstedCore.PropertyInfo]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PropertyInfo",
-                    "printedName": "MapstedCore.PropertyInfo",
-                    "usr": "s:11MapstedCore12PropertyInfoC"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC12propertyList33_9651FC3F3F2A9D86AA9C54B467628543LLSay0A4Core12PropertyInfoCGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC12propertyList33_9651FC3F3F2A9D86AA9C54B467628543LLSay0A4Core12PropertyInfoCGvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 10,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "propertyNames",
-            "printedName": "propertyNames",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC13propertyNames33_9651FC3F3F2A9D86AA9C54B467628543LLSaySSGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC13propertyNames33_9651FC3F3F2A9D86AA9C54B467628543LLSaySSGvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
-            "declAttributes": [
-              "Custom",
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 11,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
             "name": "tableViewNotiication",
             "printedName": "tableViewNotiication",
             "children": [
@@ -3148,7 +2300,6 @@
               "IBOutlet",
               "ObjC"
             ],
-            "fixedbinaryorder": 12,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -3242,6 +2393,210 @@
           },
           {
             "kind": "Var",
+            "name": "selectedPropertyId",
+            "printedName": "selectedPropertyId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC18selectedPropertyIdSivp",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC18selectedPropertyIdSivp",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC18selectedPropertyIdSivg",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC18selectedPropertyIdSivg",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC18selectedPropertyIdSivs",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC18selectedPropertyIdSivs",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC18selectedPropertyIdSivM",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC18selectedPropertyIdSivM",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkMonitor",
+            "printedName": "networkMonitor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MapstedTopBarNotification.NetworkMonitor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkMonitor",
+                    "printedName": "MapstedTopBarNotification.NetworkMonitor",
+                    "usr": "s:25MapstedTopBarNotification14NetworkMonitorC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC14networkMonitorAA07NetworkG0CSgvp",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC14networkMonitorAA07NetworkG0CSgvp",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MapstedTopBarNotification.NetworkMonitor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkMonitor",
+                        "printedName": "MapstedTopBarNotification.NetworkMonitor",
+                        "usr": "s:25MapstedTopBarNotification14NetworkMonitorC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC14networkMonitorAA07NetworkG0CSgvg",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC14networkMonitorAA07NetworkG0CSgvg",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MapstedTopBarNotification.NetworkMonitor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkMonitor",
+                        "printedName": "MapstedTopBarNotification.NetworkMonitor",
+                        "usr": "s:25MapstedTopBarNotification14NetworkMonitorC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC14networkMonitorAA07NetworkG0CSgvs",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC14networkMonitorAA07NetworkG0CSgvs",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC14networkMonitorAA07NetworkG0CSgvM",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC14networkMonitorAA07NetworkG0CSgvM",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "excludeItem",
             "printedName": "excludeItem",
             "children": [
@@ -3261,19 +2616,152 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC11excludeItem33_9651FC3F3F2A9D86AA9C54B467628543LLSayAA08AccuracyG4TypeOGvp",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC11excludeItem33_9651FC3F3F2A9D86AA9C54B467628543LLSayAA08AccuracyG4TypeOGvp",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC11excludeItemSayAA08AccuracyG4TypeOGvp",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC11excludeItemSayAA08AccuracyG4TypeOGvp",
             "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
+            "isOpen": true,
             "declAttributes": [
               "Custom",
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 13,
-            "hasStorage": true
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC11excludeItemSayAA08AccuracyG4TypeOGvg",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC11excludeItemSayAA08AccuracyG4TypeOGvg",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccuracyItemType",
+                        "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                        "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC11excludeItemSayAA08AccuracyG4TypeOGvs",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC11excludeItemSayAA08AccuracyG4TypeOGvs",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25MapstedTopBarNotification0D4UIVCC11excludeItemSayAA08AccuracyG4TypeOGvM",
+                "mangledName": "$s25MapstedTopBarNotification0D4UIVCC11excludeItemSayAA08AccuracyG4TypeOGvM",
+                "moduleName": "MapstedTopBarNotification",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initializeViewController",
+            "printedName": "initializeViewController(propertyId:excludeItems:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MapstedTopBarNotification.NotificationUIVC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationUIVC",
+                    "printedName": "MapstedTopBarNotification.NotificationUIVC",
+                    "usr": "c:@M@MapstedTopBarNotification@objc(cs)NotificationUIVC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MapstedTopBarNotification.AccuracyItemType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccuracyItemType",
+                    "printedName": "MapstedTopBarNotification.AccuracyItemType",
+                    "usr": "s:25MapstedTopBarNotification16AccuracyItemTypeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC24initializeViewController10propertyId12excludeItemsACSgSi_SayAA16AccuracyItemTypeOGtFZ",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC24initializeViewController10propertyId12excludeItemsACSgSi_SayAA16AccuracyItemTypeOGtFZ",
+            "moduleName": "MapstedTopBarNotification",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -3297,7 +2785,75 @@
               "Dynamic",
               "ObjC",
               "Custom",
-              "Override"
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupWifiNetworkMonitor",
+            "printedName": "setupWifiNetworkMonitor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC23setupWifiNetworkMonitoryyF",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC23setupWifiNetworkMonitoryyF",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopAndDeinitWifiNetworkMonitor",
+            "printedName": "stopAndDeinitWifiNetworkMonitor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC31stopAndDeinitWifiNetworkMonitoryyF",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC31stopAndDeinitWifiNetworkMonitoryyF",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllListeners",
+            "printedName": "removeAllListeners()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC18removeAllListenersyyF",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC18removeAllListenersyyF",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3329,7 +2885,8 @@
               "Dynamic",
               "ObjC",
               "Custom",
-              "Override"
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3361,7 +2918,8 @@
               "Dynamic",
               "ObjC",
               "Custom",
-              "Override"
+              "Override",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3393,7 +2951,31 @@
               "Dynamic",
               "ObjC",
               "Custom",
-              "Override"
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshAndRecalculateNotifications",
+            "printedName": "refreshAndRecalculateNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25MapstedTopBarNotification0D4UIVCC34refreshAndRecalculateNotificationsyyF",
+            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC34refreshAndRecalculateNotificationsyyF",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3444,28 +3026,6 @@
             "declAttributes": [
               "Custom",
               "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isBlueToothConnected",
-            "printedName": "isBlueToothConnected()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:25MapstedTopBarNotification0D4UIVCC20isBlueToothConnectedSbyF",
-            "mangledName": "$s25MapstedTopBarNotification0D4UIVCC20isBlueToothConnectedSbyF",
-            "moduleName": "MapstedTopBarNotification",
-            "isOpen": true,
-            "declAttributes": [
-              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3592,7 +3152,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3630,7 +3191,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3668,7 +3230,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3705,7 +3268,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3743,7 +3307,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3781,7 +3346,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3819,7 +3385,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3887,7 +3454,8 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3915,7 +3483,8 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3949,7 +3518,8 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3977,7 +3547,8 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4011,7 +3582,8 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4042,7 +3614,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4070,7 +3643,8 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4101,7 +3675,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4126,7 +3701,8 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Custom"
+              "Custom",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4139,6 +3715,7 @@
         "isOpen": true,
         "declAttributes": [
           "Custom",
+          "AccessControl",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
@@ -4815,107 +4392,35 @@
         "children": [
           {
             "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetworkMonitor",
-                "printedName": "MapstedTopBarNotification.NetworkMonitor",
-                "usr": "s:25MapstedTopBarNotification14NetworkMonitorC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification14NetworkMonitorC6sharedACvpZ",
-            "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorC6sharedACvpZ",
-            "moduleName": "MapstedTopBarNotification",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkMonitor",
-                    "printedName": "MapstedTopBarNotification.NetworkMonitor",
-                    "usr": "s:25MapstedTopBarNotification14NetworkMonitorC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25MapstedTopBarNotification14NetworkMonitorC6sharedACvgZ",
-                "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorC6sharedACvgZ",
-                "moduleName": "MapstedTopBarNotification",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent",
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "monitor",
             "printedName": "monitor",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "NWPathMonitor",
-                "printedName": "Network.NWPathMonitor",
-                "usr": "s:7Network13NWPathMonitorC"
+                "name": "Optional",
+                "printedName": "Network.NWPathMonitor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NWPathMonitor",
+                    "printedName": "Network.NWPathMonitor",
+                    "usr": "s:7Network13NWPathMonitorC"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification14NetworkMonitorC7monitor33_72D6E63AF33C64CD56E1C09C318EB632LL0E006NWPathF0Cvp",
-            "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorC7monitor33_72D6E63AF33C64CD56E1C09C318EB632LL0E006NWPathF0Cvp",
+            "usr": "s:25MapstedTopBarNotification14NetworkMonitorC7monitor33_72D6E63AF33C64CD56E1C09C318EB632LL0E006NWPathF0CSgvp",
+            "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorC7monitor33_72D6E63AF33C64CD56E1C09C318EB632LL0E006NWPathF0CSgvp",
             "moduleName": "MapstedTopBarNotification",
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Final",
               "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "queue",
-            "printedName": "queue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DispatchQueue",
-                "printedName": "Dispatch.DispatchQueue",
-                "usr": "c:objc(cs)OS_dispatch_queue"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25MapstedTopBarNotification14NetworkMonitorC5queue33_72D6E63AF33C64CD56E1C09C318EB632LLSo012OS_dispatch_G0Cvp",
-            "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorC5queue33_72D6E63AF33C64CD56E1C09C318EB632LLSo012OS_dispatch_G0Cvp",
-            "moduleName": "MapstedTopBarNotification",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
             "hasStorage": true
           },
           {
@@ -4939,7 +4444,7 @@
               "HasStorage",
               "ReferenceOwnership"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 1,
             "ownership": 1,
             "hasStorage": true,
             "accessors": [
@@ -5056,7 +4561,7 @@
               "HasStorage",
               "SetterAccess"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 2,
             "hasStorage": true,
             "accessors": [
               {
@@ -5106,7 +4611,7 @@
               "HasStorage",
               "SetterAccess"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 3,
             "hasStorage": true,
             "accessors": [
               {
@@ -5135,6 +4640,24 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkMonitor",
+                "printedName": "MapstedTopBarNotification.NetworkMonitor",
+                "usr": "s:25MapstedTopBarNotification14NetworkMonitorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25MapstedTopBarNotification14NetworkMonitorCACycfc",
+            "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorCACycfc",
+            "moduleName": "MapstedTopBarNotification",
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "startMonitoring",
             "printedName": "startMonitoring()",
@@ -5148,6 +4671,24 @@
             "declKind": "Func",
             "usr": "s:25MapstedTopBarNotification14NetworkMonitorC15startMonitoringyyF",
             "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorC15startMonitoringyyF",
+            "moduleName": "MapstedTopBarNotification",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deinitializeMonitor",
+            "printedName": "deinitializeMonitor()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25MapstedTopBarNotification14NetworkMonitorC012deinitializeF0yyF",
+            "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorC012deinitializeF0yyF",
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -7901,15 +7442,15 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
-      "kind": "Array",
-      "offset": 493,
+      "kind": "IntegerLiteral",
+      "offset": 704,
       "length": 2,
-      "value": "[]"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
       "kind": "Array",
-      "offset": 1202,
+      "offset": 743,
       "length": 2,
       "value": "[]"
     },
@@ -7958,6 +7499,20 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 14,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 688,
+      "length": 34,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
       "offset": 543,
       "length": 1,
       "value": "0"
@@ -8000,6 +7555,20 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 14,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 688,
+      "length": 34,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
       "offset": 543,
       "length": 1,
       "value": "0"
@@ -8041,71 +7610,106 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 14,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 688,
+      "length": 34,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 745,
+      "offset": 820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 791,
+      "offset": 866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 841,
+      "offset": 916,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 970,
+      "offset": 1069,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Dictionary",
-      "offset": 1012,
+      "offset": 1119,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1051,
+      "offset": 1166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1099,
+      "offset": 1214,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 1146,
+      "offset": 1261,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 1239,
+      "offset": 1354,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1449,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 1438,
+      "offset": 1622,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1689,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "Array",
+      "offset": 1728,
       "length": 2,
       "value": "[]"
     },
@@ -8118,22 +7722,15 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 418,
-      "length": 21,
-      "value": "\"NetworkMonitorQueue\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 548,
+      "offset": 417,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Utility\/NetworkMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 597,
+      "offset": 466,
       "length": 5,
       "value": "false"
     },

@@ -278,6 +278,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import MapstedCore;
+@import MapstedLocationShare;
+@import UIKit;
 #endif
 
 #endif
@@ -319,6 +322,56 @@ SWIFT_PROTOCOL("_TtP25MapstedTopBarNotification27MapstedNotificationListener_")
 ///
 - (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
 @end
+
+@class NSString;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC25MapstedTopBarNotification16NotificationUIVC")
+@interface NotificationUIVC : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <LocationServicesCallback>
+- (void)onLocationServicesSuccess;
+@end
+
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <ShareLiveLocationListener>
+- (void)onShareLiveLocationEnabledWithEnabled:(BOOL)enabled;
+@end
+
+
+
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <ValidBlueDotCallbackListener>
+- (void)onValidBlueDotStateChangeWithError:(EnumValidBlueDotError)error;
+@end
+
+@class UITableView;
+@class NSIndexPath;
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UITableViewCell;
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <UITableViewDataSource>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 
 
@@ -610,6 +663,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import MapstedCore;
+@import MapstedLocationShare;
+@import UIKit;
 #endif
 
 #endif
@@ -651,6 +707,56 @@ SWIFT_PROTOCOL("_TtP25MapstedTopBarNotification27MapstedNotificationListener_")
 ///
 - (void)onTopBarNotificationCountUpdatedWithCount:(NSInteger)count height:(CGFloat)height heightMode:(enum HeightMode)heightMode;
 @end
+
+@class NSString;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC25MapstedTopBarNotification16NotificationUIVC")
+@interface NotificationUIVC : UIViewController
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <LocationServicesCallback>
+- (void)onLocationServicesSuccess;
+@end
+
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <ShareLiveLocationListener>
+- (void)onShareLiveLocationEnabledWithEnabled:(BOOL)enabled;
+@end
+
+
+
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <ValidBlueDotCallbackListener>
+- (void)onValidBlueDotStateChangeWithError:(EnumValidBlueDotError)error;
+@end
+
+@class UITableView;
+@class NSIndexPath;
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UITableViewCell;
+
+@interface NotificationUIVC (SWIFT_EXTENSION(MapstedTopBarNotification)) <UITableViewDataSource>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 
 

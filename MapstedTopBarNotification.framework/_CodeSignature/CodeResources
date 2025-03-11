@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MapstedTopBarNotification-Swift.h</key>
 		<data>
-		QpBidn4Gg3+dj8o3pmc0nuOqmKE=
+		3vq+HrW8fI6E5MrUK6d0Lim9r8Y=
 		</data>
 		<key>Headers/MapstedTopBarNotification.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IwAQdhIxC+X+342OGK8YL1FRHe8=
+		Z/1CmBvSXq8dHaY64VC1OMq83j0=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		WbrPTVWbAvrSKPqVhJ+UD5c2hxE=
+		p+SoOZ4DtfJktzsfo7CSjQM/T8k=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dHc67IrfFkG80RxhfdjxNOGsFwk=
+		NF9d4rM+ybv+FuvW+hBsWCNzhZE=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		acyu2SzD2mXiOT2hUmwbeFHuYb4=
+		P4mF5EtpU9ozlvnEPHRJ9ef3gD4=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Np+7vRRKxczl+KtLPK7mKZcjWy4=
+		d49NDoikAOxCCHgBqFRvnbkWorU=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dSK4o7zMkiSpENDmFVWipFk6szY=
+		i1EJB7gQ9VzH/IrUFe2rbLVTaqw=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s0rYlwQn1KEwqFTmfUFP1NdQn/E=
+		6SrGu0GBY9Jb0VbX2Y/ojDLK3YI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -239,7 +239,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8XoQcDi6QpQ4c8CwyPqu9MPmOUZ9ubmzkU0zHldla4E=
+			TdjPkGVMauUP5EwhW5KyZ3H6YbKgjwZpWkgLPvCpC1s=
 			</data>
 		</dict>
 		<key>Headers/MapstedTopBarNotification.h</key>
@@ -253,42 +253,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FAY+RdIBhgBLFBlKtnUwAnmYt31GPYrsneLsFrBJBqE=
+			X1dAt6X3noEwgXhU5Phw5oRR+jhBwExL5hCNs1krnRk=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			beUz+mXiVr+swA90Y+0pU1Z9nzUWZ9qtBi0uR/r0f/w=
+			Q4PJ4gSYZqUM8KHoA3ItGiBrxVvyux7aqTMmOhg3/pY=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yn5efclK2jSH72PFDWB0u0Qan4PLtl2Uky55fJl7ksc=
+			OkDq+TvK0v2kXljRPlTMlAEFBoTYXpLFVV0GZHDA6/o=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9phsLvNW7KQJqKHqUK5G+9pJS3mLjC/eaDFjzA/fZbc=
+			z/X1x2supuuLzrbWA65qiRCWsMxkef8cx6h98Grzw78=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FFku9YbYvTN8ZFbKt/9JY/D4qTaCImX/ij7qGmJVpNc=
+			QYNB3qPynUVD9TLD03Pcg05ps6e2VHUsZGVE/FVW2TE=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CbuEDjDqM2HaDFjZuj2Hh5BNbmqT9I3uIkJSgqOwbw4=
+			augywzhaErGgcFKL2R700PjPDsApkV4UbTo+Ivx09XQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
