@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		fBkBSd+QhSGY77xzGqCXfzrsYxQ=
+		hnNthrO9pgOfaG1M4srfJb7skWY=
 		</data>
 		<key>Headers/MapstedTopBarNotification-Swift.h</key>
 		<data>
-		v7cIQ4Bmi+udhDAs16S3HKymYNk=
+		wRw34KK5D95+8FMGM4ZYiS4LGGs=
 		</data>
 		<key>Headers/MapstedTopBarNotification.h</key>
 		<data>
@@ -18,55 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tcpXCDDAaa7RQyE9fNHBfAGgyQQ=
-		</data>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		jG6BedaPaW0MHueQNOp+J5jNxjY=
+		e2vCaIBmcK/FO5Y3ObX+rc0PiG0=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		oX8SPVevig+u66lDJ40LEkSwinQ=
-		</data>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
-		<data>
-		NF9d4rM+ybv+FuvW+hBsWCNzhZE=
-		</data>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		dHMPVnUd0zWBkjwNKO9g2qHa5V0=
-		</data>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		CybgVdEsBfFo1+UmBNsF86VkdNk=
-		</data>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		+PzBA6coUyls19laJxDGDkfjDKo=
-		</data>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		5Cu1ceX/MywUEqr3pKfzmB4ea/I=
+		/0iFFJfXGsk8OKWW4tK8CA3A49c=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NF9d4rM+ybv+FuvW+hBsWCNzhZE=
+		Ii/Qo9tXaqG3TZkO6IPQOVuPPm4=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		P4mF5EtpU9ozlvnEPHRJ9ef3gD4=
+		J5zU6SHywWla3DX9Rkze2gGFPJc=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		d49NDoikAOxCCHgBqFRvnbkWorU=
+		e7aNX0juM2b4mufBIA0yit1md7A=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		i1EJB7gQ9VzH/IrUFe2rbLVTaqw=
+		8JCjLz8I8uXdDcujnB4jXPFIN2c=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6SrGu0GBY9Jb0VbX2Y/ojDLK3YI=
+		k4rcm4Erna3hMY+IWBX9gGnyaHE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +66,7 @@
 		</data>
 		<key>NotificationUI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
 		<data>
-		Sii894I6hIr9I9ME9cIsV2JYBJY=
+		vsm1VovaiHjmH5wEbvPV8MCKv9w=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -256,14 +232,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HLBnHqRKJY8mxFoQP6mIHZEpYnok2VPYX7h40JeAvyM=
+			xTogK55OpayvMAKYtKkanO1hTIpFG0enc3YurHRU0DA=
 			</data>
 		</dict>
 		<key>Headers/MapstedTopBarNotification-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g3Yv6csPAwMZf4cGD9U90FvV46Yrks/K+unbkJXYc7I=
+			E7tktIfaTXWnX6RkfBLQcWaDm8mxsstl+l+6leRYeMQ=
 			</data>
 		</dict>
 		<key>Headers/MapstedTopBarNotification.h</key>
@@ -273,88 +249,46 @@
 			DdLYUa01DGRKjKrobIizEYWa0qjgLL6SYMRwxf/4930=
 			</data>
 		</dict>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KkvC7osODMQ3D4ZrD9lf1lKrStp7cgufZYgy9K8qmN8=
-			</data>
-		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ii+QKa4MVGJ5QhUo7WOjsYdNuLyAGDbH7KrVzI7ihsI=
-			</data>
-		</dict>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Q4PJ4gSYZqUM8KHoA3ItGiBrxVvyux7aqTMmOhg3/pY=
-			</data>
-		</dict>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ktar9cQOThhbZGlt1lSfrsPQeQv+Rd8Y19dmYm45uCk=
-			</data>
-		</dict>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QCMB9J3f73e1+4hXaKa/twczsCRNsq7mrE30LfInGdY=
-			</data>
-		</dict>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			53dCra5E3ulORSS18Oye+xV/f3hcwe3JsfkEOa+c7bc=
-			</data>
-		</dict>
-		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lngXi2MCyb2yyuoGD+6pzj3sgeCNOhzf6DHsQNgIy78=
+			qKt3Mdx2/36ZwXG5s9gieYG/+QFFW8cPI2zeexO3u2c=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q4PJ4gSYZqUM8KHoA3ItGiBrxVvyux7aqTMmOhg3/pY=
+			K98Ekgf7a4DA/wgNgmKMOtlfaNlyycP2bDquN2YOtx0=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OkDq+TvK0v2kXljRPlTMlAEFBoTYXpLFVV0GZHDA6/o=
+			ZC8iKMVcLuU8O3doUzdB34EcBnzk0TAE3AZxraJLjFE=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z/X1x2supuuLzrbWA65qiRCWsMxkef8cx6h98Grzw78=
+			qCLCF+dB3FNYG4WDXkK0C29axlv4R5egWKJTWDTQ6RY=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QYNB3qPynUVD9TLD03Pcg05ps6e2VHUsZGVE/FVW2TE=
+			/e8g/HVt7uU4A61/gMyMU9eqJuUouvzwD8jVayKHXtY=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			augywzhaErGgcFKL2R700PjPDsApkV4UbTo+Ivx09XQ=
+			85Ce7lL49bXswUDIuQlczS86u7PhV/CdOOANFkqCe5I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -396,7 +330,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/wxCelMtNXQjfXUY1R6LYjpq59MeOdG5AqFjnmixku8=
+			RvqXBp4pSzOKzn8Upx0iLCwRVU9ycR31RAAI2fr0BOo=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

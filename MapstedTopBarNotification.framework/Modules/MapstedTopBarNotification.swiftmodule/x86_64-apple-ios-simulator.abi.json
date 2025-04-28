@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MapstedTopBarNotification",
+    "printedName": "MapstedTopBarNotification",
     "children": [
       {
         "kind": "Import",
@@ -37,6 +37,7 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
@@ -153,6 +154,7 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
@@ -269,6 +271,7 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
@@ -385,6 +388,7 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
@@ -504,6 +508,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -542,6 +547,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -576,6 +582,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -623,6 +630,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "Available"
@@ -665,6 +673,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -677,6 +686,7 @@
         "moduleName": "MapstedTopBarNotification",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -689,6 +699,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -925,7 +949,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MapstedNotificationListener",
-                "printedName": "MapstedTopBarNotification.MapstedNotificationListener",
+                "printedName": "any MapstedTopBarNotification.MapstedNotificationListener",
                 "usr": "c:@M@MapstedTopBarNotification@objc(pl)MapstedNotificationListener"
               }
             ],
@@ -953,7 +977,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MapstedNotificationListener",
-                "printedName": "MapstedTopBarNotification.MapstedNotificationListener",
+                "printedName": "any MapstedTopBarNotification.MapstedNotificationListener",
                 "usr": "c:@M@MapstedTopBarNotification@objc(pl)MapstedNotificationListener"
               }
             ],
@@ -1051,6 +1075,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "MapstedNotificationListener",
@@ -1245,6 +1283,22 @@
         "isOpen": true,
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1436,6 +1490,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1590,7 +1658,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1680,7 +1764,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CoreLocationServicesInterface",
-                "printedName": "MapstedCore.CoreLocationServicesInterface",
+                "printedName": "any MapstedCore.CoreLocationServicesInterface",
                 "usr": "s:11MapstedCore0B25LocationServicesInterfaceP"
               }
             ],
@@ -1705,7 +1789,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CoreLocationServicesInterface",
-                    "printedName": "MapstedCore.CoreLocationServicesInterface",
+                    "printedName": "any MapstedCore.CoreLocationServicesInterface",
                     "usr": "s:11MapstedCore0B25LocationServicesInterfaceP"
                   }
                 ],
@@ -1747,7 +1831,23 @@
         "usr": "s:25MapstedTopBarNotification0A12CoreInternalC",
         "mangledName": "$s25MapstedTopBarNotification0A12CoreInternalC",
         "moduleName": "MapstedTopBarNotification",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -2148,6 +2248,9 @@
             "moduleName": "MapstedTopBarNotification",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2189,6 +2292,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2294,6 +2411,7 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
@@ -2409,8 +2527,9 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage"
             ],
             "hasStorage": true,
@@ -2507,8 +2626,9 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage"
             ],
             "hasStorage": true,
@@ -2621,8 +2741,9 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "RawDocComment"
             ],
@@ -2758,8 +2879,9 @@
             "moduleName": "MapstedTopBarNotification",
             "static": true,
             "declAttributes": [
-              "Custom",
-              "Final"
+              "Final",
+              "Preconcurrency",
+              "Custom"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2784,6 +2906,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2807,6 +2930,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -2829,6 +2953,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -2851,6 +2976,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2884,6 +3010,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2917,6 +3044,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2950,6 +3078,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -2973,6 +3102,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2997,6 +3127,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -3024,6 +3155,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -3079,6 +3211,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3120,6 +3253,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -3152,6 +3286,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3191,6 +3326,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3230,6 +3366,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3268,6 +3405,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3307,6 +3445,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3346,6 +3485,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3385,6 +3525,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3420,6 +3561,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -3454,6 +3596,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3483,6 +3626,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3518,6 +3662,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3547,6 +3692,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3582,6 +3728,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3614,6 +3761,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3643,6 +3791,7 @@
             "moduleName": "MapstedTopBarNotification",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3675,6 +3824,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3701,6 +3851,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3714,6 +3865,7 @@
         "moduleName": "MapstedTopBarNotification",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -3728,45 +3880,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "NetworkMonitorDelegate",
-            "printedName": "NetworkMonitorDelegate",
-            "usr": "s:25MapstedTopBarNotification22NetworkMonitorDelegateP",
-            "mangledName": "$s25MapstedTopBarNotification22NetworkMonitorDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "PropertyAutoDownloadListener",
-            "printedName": "PropertyAutoDownloadListener",
-            "usr": "s:11MapstedCore28PropertyAutoDownloadListenerP",
-            "mangledName": "$s11MapstedCore28PropertyAutoDownloadListenerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "PropertyDownloadListener",
-            "printedName": "PropertyDownloadListener",
-            "usr": "s:11MapstedCore24PropertyDownloadListenerP",
-            "mangledName": "$s11MapstedCore24PropertyDownloadListenerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ValidBlueDotCallbackListener",
-            "printedName": "ValidBlueDotCallbackListener",
-            "usr": "c:@M@MapstedCore@objc(pl)ValidBlueDotCallbackListener",
-            "mangledName": "$s11MapstedCore28ValidBlueDotCallbackListenerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LicenceStatusListener",
-            "printedName": "LicenceStatusListener",
-            "usr": "s:11MapstedCore21LicenceStatusListenerP",
-            "mangledName": "$s11MapstedCore21LicenceStatusListenerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ShareLiveLocationListener",
-            "printedName": "ShareLiveLocationListener",
-            "usr": "c:@M@MapstedLocationShare@objc(pl)ShareLiveLocationListener",
-            "mangledName": "$s20MapstedLocationShare0c4LiveB8ListenerP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3830,6 +3954,48 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetworkMonitorDelegate",
+            "printedName": "NetworkMonitorDelegate",
+            "usr": "s:25MapstedTopBarNotification22NetworkMonitorDelegateP",
+            "mangledName": "$s25MapstedTopBarNotification22NetworkMonitorDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PropertyAutoDownloadListener",
+            "printedName": "PropertyAutoDownloadListener",
+            "usr": "s:11MapstedCore28PropertyAutoDownloadListenerP",
+            "mangledName": "$s11MapstedCore28PropertyAutoDownloadListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PropertyDownloadListener",
+            "printedName": "PropertyDownloadListener",
+            "usr": "s:11MapstedCore24PropertyDownloadListenerP",
+            "mangledName": "$s11MapstedCore24PropertyDownloadListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ValidBlueDotCallbackListener",
+            "printedName": "ValidBlueDotCallbackListener",
+            "usr": "c:@M@MapstedCore@objc(pl)ValidBlueDotCallbackListener",
+            "mangledName": "$s11MapstedCore28ValidBlueDotCallbackListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LicenceStatusListener",
+            "printedName": "LicenceStatusListener",
+            "usr": "s:11MapstedCore21LicenceStatusListenerP",
+            "mangledName": "$s11MapstedCore21LicenceStatusListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ShareLiveLocationListener",
+            "printedName": "ShareLiveLocationListener",
+            "usr": "c:@M@MapstedLocationShare@objc(pl)ShareLiveLocationListener",
+            "mangledName": "$s20MapstedLocationShare0c4LiveB8ListenerP"
           }
         ]
       },
@@ -3932,6 +4098,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4074,7 +4256,23 @@
         "usr": "s:25MapstedTopBarNotification19LocalizationManagerC",
         "mangledName": "$s25MapstedTopBarNotification19LocalizationManagerC",
         "moduleName": "MapstedTopBarNotification",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -4183,7 +4381,23 @@
         "usr": "s:25MapstedTopBarNotification9AppBundleC",
         "mangledName": "$s25MapstedTopBarNotification9AppBundleC",
         "moduleName": "MapstedTopBarNotification",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4281,10 +4495,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -4315,10 +4550,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -4383,7 +4639,23 @@
         "mangledName": "$s25MapstedTopBarNotification22NetworkMonitorDelegateP",
         "moduleName": "MapstedTopBarNotification",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -4431,7 +4703,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "MapstedTopBarNotification.NetworkMonitorDelegate?"
+                "printedName": "(any MapstedTopBarNotification.NetworkMonitorDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4456,12 +4728,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MapstedTopBarNotification.NetworkMonitorDelegate?",
+                    "printedName": "(any MapstedTopBarNotification.NetworkMonitorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "NetworkMonitorDelegate",
-                        "printedName": "MapstedTopBarNotification.NetworkMonitorDelegate",
+                        "printedName": "any MapstedTopBarNotification.NetworkMonitorDelegate",
                         "usr": "s:25MapstedTopBarNotification22NetworkMonitorDelegateP"
                       }
                     ],
@@ -4492,12 +4764,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "MapstedTopBarNotification.NetworkMonitorDelegate?",
+                    "printedName": "(any MapstedTopBarNotification.NetworkMonitorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "NetworkMonitorDelegate",
-                        "printedName": "MapstedTopBarNotification.NetworkMonitorDelegate",
+                        "printedName": "any MapstedTopBarNotification.NetworkMonitorDelegate",
                         "usr": "s:25MapstedTopBarNotification22NetworkMonitorDelegateP"
                       }
                     ],
@@ -4716,7 +4988,23 @@
         "usr": "s:25MapstedTopBarNotification14NetworkMonitorC",
         "mangledName": "$s25MapstedTopBarNotification14NetworkMonitorC",
         "moduleName": "MapstedTopBarNotification",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5527,10 +5815,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -5759,6 +6068,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -5766,17 +6089,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -6861,6 +7184,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -6868,17 +7205,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -6944,6 +7281,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7068,6 +7419,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7161,13 +7526,17 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI5ColorV",
         "mangledName": "$s7SwiftUI5ColorV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -7205,38 +7574,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7281,6 +7629,35 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -7321,13 +7698,17 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI5ImageV",
         "mangledName": "$s7SwiftUI5ImageV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -7348,6 +7729,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7391,12 +7786,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -7436,13 +7825,6 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 216,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIManager.swift",
-      "kind": "IntegerLiteral",
       "offset": 704,
       "length": 2,
       "value": "-1"
@@ -7453,118 +7835,6 @@
       "offset": 743,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 543,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 561,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 572,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 591,
-      "length": 14,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 615,
-      "length": 15,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 640,
-      "length": 14,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 664,
-      "length": 14,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 688,
-      "length": 34,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 543,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 561,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 572,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 591,
-      "length": 14,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 615,
-      "length": 15,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 640,
-      "length": 14,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 664,
-      "length": 14,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 688,
-      "length": 34,
-      "value": "7"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
