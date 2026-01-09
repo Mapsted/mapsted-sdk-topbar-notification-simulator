@@ -2623,36 +2623,43 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1388,
+      "length": 43,
+      "value": "\"com.mapsted.notification.propertyIdsQueue\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 1354,
+      "offset": 1544,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1449,
+      "offset": 1639,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 1622,
+      "offset": 1812,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1689,
+      "offset": 1879,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Mapsted Project\/Release repo(Simu)\/ios-sdk\/ios-sdk-notification\/MapstedNotification\/MapstedNotification\/Resources\/NotificationUIVC.swift",
       "kind": "Array",
-      "offset": 1728,
+      "offset": 1918,
       "length": 2,
       "value": "[]"
     },
