@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zioQa8XXaaDEHFJ0unCp1rtni1U=
+		nOzCHfBQqv48Klee5vSxPVEQsns=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		h/zmNoiVDvDmLSB00QfErPG+i2I=
+		FaCN6oDW/3GlOkQyPjnJUe6rfjE=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		tnAjOubRw0yqP3nzyT/DGz48LdQ=
+		fs/ux4jVA7rtkTsHnGzjv01oZdM=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		z0XObYZGU/lpF2j6bSmR4G4lfL4=
+		kzi7jfeVlQB4WU9kMgewtBkL0Q8=
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		R40Pzk/0Ltar2U0VsHOk38thIvQ=
+		r2Bz5qIU4RABmN2LddimTIlsKGg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -277,14 +277,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mUrvM7JrWJFg/ClPTcYlKG9zSzVlSQhw+zBRUzJA+/U=
+			8ZbsPUlnNY8M2Vzbqibq+PrlIgNYDrwu7qbCFe4a8y8=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eWu/RFM5FuK2H71FJg3iZckCQpSMVrIt226NkJJbezQ=
+			gqMb479lSSpz6yYKb1onOy2BtcBMuGLDO0BoVW3Nj+U=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -319,7 +319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mPIky/jiT8bFAAaL5crTxTOrf5Z18JHImvoe9nFl22Q=
+			VKfAT0bMhFNnbU0NRYEtzyfw2hTdabqcNPgaJddrXpE=
 			</data>
 		</dict>
 		<key>Modules/MapstedTopBarNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -354,7 +354,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HX4BpwrUM5HPwqqlGjN3p2Aspclka5gN7feHoVE8f88=
+			jfT7slnVaCX5cQvqdERydKzTU3HZ5e0z3s/wN+t2N3I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
