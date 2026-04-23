@@ -1,12 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MapstedTopBarNotification
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MapstedTopBarNotification
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CoreLocation
 import CoreMotion
 import DeveloperToolsSupport
 import Foundation
-import MapstedAlerts
 import MapstedCore
 import MapstedLocationShare
 @_exported import MapstedTopBarNotification
@@ -29,7 +28,9 @@ import _SwiftConcurrencyShims
 @objc public enum HeightMode : Swift.Int {
   case fullHeight
   case custom
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -37,7 +38,9 @@ import _SwiftConcurrencyShims
 }
 @_hasMissingDesignatedInitializers public class NotificationUIManager {
   public static let shared: MapstedTopBarNotification.NotificationUIManager
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNotificationUIViewController(propertyId: Swift.Int = -1, excludeItems: [MapstedTopBarNotification.AccuracyItemType] = []) -> MapstedTopBarNotification.NotificationUIVC?
+  #endif
   @objc deinit
 }
 public enum AccuracyItemType : Swift.Int, Swift.CaseIterable, Swift.Codable {
@@ -49,7 +52,9 @@ public enum AccuracyItemType : Swift.Int, Swift.CaseIterable, Swift.Codable {
   case incorrectFloor
   case unreliableData
   case missingPermissionsMotionAndFitness
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [MapstedTopBarNotification.AccuracyItemType]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [MapstedTopBarNotification.AccuracyItemType] {
@@ -67,8 +72,12 @@ public enum AccuracyItemType : Swift.Int, Swift.CaseIterable, Swift.Codable {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public func refreshAndRecalculateNotifications()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
 }
 extension MapstedTopBarNotification.NotificationUIVC : UIKit.UITableViewDataSource {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
